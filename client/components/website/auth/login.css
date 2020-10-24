@@ -1,0 +1,70 @@
+.login {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #575c5f;
+}
+.login .holder {
+    background-color: #f5f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 35px;
+}
+.login h3 {
+    font-weight: bold;
+    color: #236cdf;
+}
+.login .border-b {
+    width: 45px;
+    display: inline-block;
+    border-top: 4px solid #575c5f;
+    margin-bottom: 35px;
+}
+.login .form-group{
+    padding:10px;
+    margin:10px;
+}
+.login .form-group label{
+    position:absolute;
+    top:3px;
+    left:70px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color:#f5f9fa;
+}
+.login .form-group input{
+    border: 2px solid #236cdf ;
+    height: 55px;
+    padding-right: 20px;
+    background-color: #f5f9fa;
+}
+.login .btn{
+    font-weight: bold;
+    color: #236cdf;
+}
+.login .login-button {
+    color: white;
+    background-color: #236cdf;
+    width: 70%;
+    height: 50px;
+    font-size: 20px;
+    margin: 30px;
+    transition: all .5s ease;
+}
+.login .login-button:hover {
+    color: #236cdf;
+    background-color: #ddd;
+    box-shadow: 0px 0px 20px #ddd;
+}
+.login span {
+    font-weight: bold;
+}
+@media (max-width : 414px) {
+    .login .form-group label {
+        left: 70px;
+    }
+    .login .login-button {
+        width: 80%;
+    }
+}

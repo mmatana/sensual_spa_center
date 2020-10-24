@@ -1,0 +1,6 @@
+*:focus, *:active, *:focus-visible {
+    border: none !important;
+    border-color: inherit !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}

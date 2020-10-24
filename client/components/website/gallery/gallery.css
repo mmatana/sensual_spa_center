@@ -1,0 +1,7 @@
+.gallery .images {
+    margin-bottom: 20px;
+}
+
+.gallery .images img {
+    max-height: 300px;
+}

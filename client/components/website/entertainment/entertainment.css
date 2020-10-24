@@ -1,0 +1,18 @@
+.entertainment .top-images {
+    margin-bottom: 20px;
+}
+
+.entertainment .top-images img {
+    max-height: 300px;
+}
+
+.entertainment .down-image {
+    max-height: 250px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.entertainment .down-image img {
+    top: -140px;
+    position: relative;
+}

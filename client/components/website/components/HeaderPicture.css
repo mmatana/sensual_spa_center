@@ -1,0 +1,13 @@
+.headerPicture .headerPictureImage {
+    height: 250px;
+    line-height: 250px;
+    overflow: hidden;
+    background: url('/images/header-picture.jpg');
+    text-align: center;
+}
+
+.headerPicture .headerPictureImage h4 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}

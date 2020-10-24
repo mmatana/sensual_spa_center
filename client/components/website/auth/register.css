@@ -1,0 +1,70 @@
+.register {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #575c5f;
+}
+.register .holder {
+    background-color: #f5f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 35px;
+}
+.register h3 {
+    font-weight: bold;
+    color: #236cdf;
+}
+.register .border-b {
+    width: 45px;
+    display: inline-block;
+    border-top: 4px solid #575c5f;
+    margin-bottom: 35px;
+}
+.register .form-group{
+    padding:10px;
+    margin:10px;
+}
+.register .form-group label{
+    position:absolute;
+    top:3px;
+    left:70px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color:#f5f9fa;
+}
+.register .form-group input{
+    border: 2px solid #236cdf;
+    height: 55px;
+    padding-right: 20px;
+    background-color: #f5f9fa;
+}
+.register span {
+    font-weight: bold;
+}
+.register .btn {
+    color: #236cdf;
+    font-weight: bold;
+}
+.register .register-button {
+    color: white;
+    background-color: #236cdf;
+    width: 70%;
+    height: 50px;
+    font-size: 20px;
+    margin: 30px;
+    transition: all .5s ease;
+}
+.register .register-button:hover {
+    color: #236cdf;
+    background-color: #ddd;
+    box-shadow: 0px 0px 20px #ddd;
+}
+@media (max-width : 414px) {
+    .register .form-group label {
+        left: 60px;
+    }
+    .register .register-button {
+        width: 80%;
+    }
+}
